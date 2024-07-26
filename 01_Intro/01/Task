@@ -1,0 +1,4 @@
+Создайте новый проект в Pycharm.
+На главном экране нажмите New Project, а далее Create
+
+В файле main.py Напишите команду print("Hello world")
