@@ -1,5 +1,3 @@
-from mpmath import hyp2f0
-
 
 class House:
 	def __init__(self, name, number_of_floors):
