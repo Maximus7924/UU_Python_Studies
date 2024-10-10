@@ -9,7 +9,7 @@ def personal_sum(numbers):
             except TypeError as te_l:
                 incorrect_data += 1
                 print(f'Некорректный тип данных для подсчёта суммы - {number}')
-                continue
+                # continue
     except TypeError as te_g:
         print(f'Некорректный тип данных для подсчёта суммы - {te_g=}')
     
@@ -27,7 +27,7 @@ def calculate_average(numbers):
         avg_div = count - in_corr
         avg = summ / avg_div
     except ZeroDivisionError:
-        print(f'Нет данных для подсчёта суммы')
+        return
     except TypeError:
         pass
     
